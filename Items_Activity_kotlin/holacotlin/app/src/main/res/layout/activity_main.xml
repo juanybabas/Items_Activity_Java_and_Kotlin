@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emmmm"
+    tools:context="com.example.juan.holacotlin.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:hint="@string/edita_el_texto"
+        android:textColor="#8EE5EE"
+        android:textColorHint="#ffffff"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        android:onClick="sendMessage"
+        android:text="@string/send"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp" />
+
+</RelativeLayout>
+
+

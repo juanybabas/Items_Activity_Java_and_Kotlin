@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen">
+
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:hint="Edita el texto"
+        android:textColor="#8EE5EE"
+        android:textColorHint="#ffffff"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="SEND"
+        android:alpha="0.2"
+        android:onClick="sendMessage"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp" />
+</RelativeLayout>
